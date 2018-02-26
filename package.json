@@ -1,13 +1,13 @@
 {
-  "name": "gitf",
+  "name": "gitfc",
   "version": "0.0.1",
   "description": "a quickly tool to commit and push code.",
-  "main": "./src/gitf.js",
+  "main": "./src/gitfc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "gitf": "./src/gitf.js"
+    "gitfc": "./src/gitfc.js"
   },
   "keywords": [
     "git",
@@ -18,5 +18,8 @@
   "dependencies": {
     "shelljs": "^0.8.1",
     "yargs": "^11.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/giflee/gitfc/issues"
   }
 }
