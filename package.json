@@ -1,0 +1,22 @@
+{
+  "name": "gitf",
+  "version": "0.0.1",
+  "description": "a quickly tool to commit and push code.",
+  "main": "./src/gitf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gitf": "./src/gitf.js"
+  },
+  "keywords": [
+    "git",
+    "code"
+  ],
+  "author": "giflee",
+  "license": "MIT",
+  "dependencies": {
+    "shelljs": "^0.8.1",
+    "yargs": "^11.0.0"
+  }
+}
