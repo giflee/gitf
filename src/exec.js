@@ -7,15 +7,6 @@ const shell = require("shelljs");
  *
  */
 var execer = (_origin = origin, _branch, _message) => {
-	console.log(_origin);
-	console.log(_branch);
-	console.log(_message);
-	console.log('git stash')
-	console.log('git pull --rebase '+_origin+' '+_branch)
-	console.log('git stash pop')
-	console.log('git add --all')
-	console.log('git commit -m '+_message)
-	console.log('git push -u '+_origin+ ' '+ _branch)
 
 	if (!shell.which('git')) {
 		shell.echo('找不到git命令')
