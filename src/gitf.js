@@ -7,6 +7,6 @@ argv.usage('Usage: gitf [origin] [branch] [commit info]')
 .help('h')
 
 if (process.argv[1] && process.argv[2] && process.argv[3]) {
-	exec(process.argv[1], process.argv[2], process.argv[3])
+	exec(process.argv[2], process.argv[3], process.argv[4])
 }
 
